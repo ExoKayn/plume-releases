@@ -12,7 +12,8 @@ https://github.com/ExoKayn/plume-releases/releases/latest
 | macOS, processeur Intel | `Plume-<version>-mac-x64.zip` |
 | Linux | `Plume-<version>-linux-x86_64.AppImage` |
 
-Plume signale lui-même les nouvelles versions au démarrage.
+Plume signale lui-même les nouvelles versions au démarrage. Chaque Release contient un fichier `SHA256SUMS` pour
+vérifier le téléchargement (Linux : `sha256sum -c SHA256SUMS --ignore-missing`).
 
 Les fichiers ne sont pas signés : au premier lancement, Windows et macOS avertissent. Windows : « Informations
 complémentaires » puis « Exécuter quand même ». macOS : décompresser le `.zip`, glisser Plume dans Applications, puis
